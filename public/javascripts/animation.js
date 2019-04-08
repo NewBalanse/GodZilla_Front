@@ -8,13 +8,15 @@ window.onload = function () {
     anime({
         targets: '.play-content',
         delay: 1700,
-        opacity: 1
+        opacity: 1,
+        translateY: -20
     });
 
     anime({
         targets: '.page-content--center--top',
         delay: 2200,
-        opacity: 1
+        opacity: 1,
+        translateX:20
     });
 
     anime({
