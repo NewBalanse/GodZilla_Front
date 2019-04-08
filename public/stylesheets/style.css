@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-image: url("../images/bgimage.jpg");
+  background-repeat: no-repeat; }
+  @media screen and (min-width: 320px) {
+    body {
+      background-position-x: 92%;
+      background-size: 240%; } }
+  @media screen and (min-width: 375px) {
+    body {
+      background-position-x: 92%;
+      background-size: 240%; } }
+  @media screen and (min-width: 768px) {
+    body {
+      background-size: cover; } }
+
+a {
+  color: #00B7FF; }
+
+.page-content {
+  background-color: rgba(195, 47, 1, 0.5);
+  width: 100%;
+  display: flex;
+  flex-direction: column; }
+  @media screen and (min-width: 768px) {
+    .page-content nav {
+      margin-left: 40%;
+      margin-right: 10%; } }
+  .page-content--top {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; }
+    @media screen and (min-width: 320px) {
+      .page-content--top {
+        margin-top: 10%; } }
+  .page-content--center {
+    flex-direction: column;
+    flex-wrap: nowrap; }
+    @media screen and (min-width: 320px) {
+      .page-content--center {
+        margin-top: 10%; } }
+    @media screen and (min-width: 768px) {
+      .page-content--center {
+        margin-top: 7%; } }
+    .page-content--center--top {
+      color: #ffffff; }
+      @media screen and (min-width: 320px) {
+        .page-content--center--top {
+          width: 50%;
+          margin: 0 0 0 0;
+          padding: 0 2rem 0 2rem; } }
+      @media screen and (min-width: 768px) {
+        .page-content--center--top {
+          margin-left: 50%;
+          margin-top: -90%;
+          width: 40%; } }
+      .page-content--center--top--text {
+        text-transform: uppercase;
+        font-weight: 100;
+        font-variant: normal;
+        line-height: 1.5em;
+        font-size: 17rem;
+        font-family: Impact, fantasy;
+        margin-bottom: 0; }
+        @media screen and (min-width: 320px) {
+          .page-content--center--top--text {
+            font-size: 10rem; } }
+    .page-content--center--bottom {
+      color: #ffffff; }
+      @media screen and (min-width: 320px) {
+        .page-content--center--bottom {
+          width: 40%;
+          padding: 0 0 7.5rem 33rem; } }
+      .page-content--center--bottom--text {
+        text-transform: uppercase;
+        font-weight: 100;
+        font-size: 5rem;
+        font-family: Impact, fantasy;
+        margin: 0; }
+
+.menu-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer; }
+  @media screen and (min-width: 320px) {
+    .menu-container {
+      width: 7rem;
+      height: 4rem;
+      margin-left: 30%;
+      padding: 1rem; } }
+  .menu-container--line {
+    background-color: white;
+    display: inline-block;
+    line-height: .4;
+    height: 20px;
+    width: 100%; }
+
+.play-content {
+  background-image: url("../images/bgplay.jpg");
+  background-size: cover;
+  background-position: center; }
+  @media screen and (min-width: 320px) {
+    .play-content {
+      width: 20rem;
+      height: 15rem;
+      margin-left: 40%;
+      padding: 1.5rem; } }
+  @media screen and (min-width: 768px) {
+    .play-content {
+      margin-left: 5%;
+      margin-top: 75%; } }
+  .play-content--button {
+    border: 10px solid azure;
+    border-radius: 50%;
+    cursor: pointer; }
+    @media screen and (min-width: 320px) {
+      .play-content--button {
+        margin-top: 10%;
+        width: 150px;
+        height: 150px;
+        margin-left: 20%; } }
+    .play-content--button--triangle {
+      content: '';
+      left: 20px;
+      bottom: -20px;
+      border: 20px solid transparent;
+      border-left: 40px solid white; }
+      @media screen and (min-width: 320px) {
+        .play-content--button--triangle {
+          margin-top: 35%;
+          margin-left: 40%; } }
+
+/*# sourceMappingURL=style.css.map */
