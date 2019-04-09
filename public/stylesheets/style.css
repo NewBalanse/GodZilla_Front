@@ -88,9 +88,18 @@ a {
       @media screen and (min-width: 375px) {
         .page-content--center--bottom {
           margin-bottom: 12.5%; } }
+  @media screen and (min-width: 375px) and (min-height: 736px) {
+    .page-content--center--bottom {
+      margin-bottom: 19%; } }
+  @media screen and (min-width: 375px) and (min-height: 812px) {
+    .page-content--center--bottom {
+      margin-bottom: 43%; } }
       @media screen and (min-width: 768px) {
         .page-content--center--bottom {
           margin-bottom: 6%; } }
+  @media screen and (min-width: 768px) and (min-height: 1300px) {
+    .page-content--center--bottom {
+      margin-bottom: 20%; } }
       .page-content--center--bottom--text {
         text-transform: uppercase;
         font-weight: 100;
